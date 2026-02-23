@@ -98,6 +98,18 @@ It is **optional** and recommended after baseline ops are stable.
 - [Phase 3 Decision Gates](docs/phase-3-decision-gates.md)
 - [Gateway Stability Runbook](docs/gateway-stability-runbook.md)
 - [Optional Git Sync](docs/optional-gitsync.md)
+- [Vault Template](vault-template/README.md)
+
+## vault framework (replicable)
+
+A complete starter Obsidian framework is included under `vault-template/` with:
+- `00-hub`
+- `01-inbox`
+- `02-research`
+- `03-projects` (+ `_template/strategy|context|content`)
+- `04-memory`
+
+This is the fastest way for others to replicate the operating model exactly.
 
 ---
 
