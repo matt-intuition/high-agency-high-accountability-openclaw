@@ -93,6 +93,9 @@ It is **optional** and recommended after baseline ops are stable.
 
 ## docs
 
+- [Quickstart Setup](docs/quickstart-setup.md)
+- [Required Cron Jobs](docs/cron-jobs-required.md)
+- [Validation Checklist](docs/validation-checklist.md)
 - [Phase 1 Memory Baseline](docs/phase-1-memory-baseline.md)
 - [Phase 2 Operating Model](docs/phase-2-operating-model.md)
 - [Phase 3 Decision Gates](docs/phase-3-decision-gates.md)
@@ -102,6 +105,20 @@ It is **optional** and recommended after baseline ops are stable.
 - [Gateway Stability Runbook](docs/gateway-stability-runbook.md)
 - [Optional Git Sync](docs/optional-gitsync.md)
 - [Vault Template](vault-template/README.md)
+
+## bootstrap script (optional)
+
+You can bootstrap the recommended cron jobs with:
+
+```bash
+scripts/bootstrap-cron.sh
+```
+
+Then verify:
+
+```bash
+openclaw cron list
+```
 
 ## vault framework (replicable)
 
